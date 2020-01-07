@@ -1,0 +1,294 @@
+/* Base */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+img{
+  max-width: 100%;
+}
+
+.header{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.navlogo{
+  margin-left: 500px;
+}
+
+.navigation{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: white
+}
+
+.nav{
+  margin-right: 10px;
+}
+
+.join{
+  border: 3px solid 
+  #f5f0ed;
+  height: 35px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  margin: auto;
+}
+
+.join a{
+  text-decoration: none;
+  color: white;
+}
+
+.firstrow{
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 120px;
+  margin-top: 3px;
+}
+
+.importance{
+  width: 50%;
+  margin-right:50px;
+}
+
+.importance h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5;
+}
+.importance a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2;
+}
+
+.leo{
+  width: 50%;
+  margin-left: 50px;
+}
+
+.headline{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.secondrow{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0px;
+}
+
+.topthreedec{
+  width:50%;
+  padding: 150px;
+  justify-content: center;
+}
+
+.pics{
+  width:50%;
+  padding: 91px;
+  margin-top: 0px;
+}
+
+.firsttwo{
+  display: flex;
+}
+
+.textpic{
+  display: flex;
+  padding: 20px;
+}
+
+.nr{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  justify-content: center;
+
+}
+
+.text{
+  padding:20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thirdrow{
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.best{
+  background-color: black;
+  color: white;
+}
+
+.twocards1{
+  display:flex;
+  color: #f5f0ed;
+}
+
+.area51{
+  width: 50%;
+ padding: 150px;
+ background-color: black;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top:50px;
+ margin-bottom: 50px;
+ border-radius: 20px;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pikachu{
+  width:50%;
+  width: 50%;
+  padding: 150px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.twocards2{
+  display:flex;
+  color: #f5f0ed;
+}
+
+.babyyoda{
+  width:50%;
+  padding: 150px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cat{
+  width: 50%;
+  padding: 150px;
+  background-color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.foot1{
+  display: flex;
+}
+
+.log{
+  text-align: right;
+  margin-left:825px;
+}
+
+@media(
+  max-width:1200px)
+  {
+    .join{
+      display: none;
+    }
+
+    .navigation{
+      display: none;
+    }
+
+    .firstrow{
+      display: block;
+    }
+
+    .importance{
+      width: 100%;
+    }
+
+    .leo{
+      width: 100%;
+    }
+
+    .secondrow{
+      display: block;
+    }
+
+    .topthreedec{
+      width: 100%;
+    }
+
+    .pics{
+      width: 100%;
+    }
+
+    .thirdrow{
+      display: block;
+    }
+
+    .twocards1{
+      display: block;
+    }
+
+    .twocards2{
+      display: block;
+    }
+
+    .footer{
+      display: block;
+    }
+
+    .log{
+     margin-left: 0px; 
+    }
+  }
+
+
+@media(
+  min-width:1201px)
+{
+  .navlogo{
+    display:none;
+  }
+}
+
+/* … */
